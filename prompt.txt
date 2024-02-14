@@ -1,0 +1,6 @@
+From the json description of requests generate a csv file for a postman collection.
+Please include a request trag as a column in the csv file, the other colums are the request parameter names.
+Moreover, generate data that fails the validation rules described by the other parameter properties.
+Generate examples for each parameter name, that fail all other properties.
+Avoid using the " character at all times, even around the csv values.
+Only output the csv file data and nothing else.
