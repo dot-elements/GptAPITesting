@@ -8,8 +8,8 @@ prompt_file_path = "prompt.txt"
 class GPTLogicRunner:
     def __init__(self, base_prompt_file_path="prompt.txt"):
         self.api_key = os.getenv("OPENAI_API_KEY")
-        #HIDE THIS KEY BEFORE COMMITTING
-        self.api_key = "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"
+        #Add your gpt api key below
+        self.api_key = "<your key here>"
         self.client = OpenAI(api_key=self.api_key)
         self.base_prompt_file_path = base_prompt_file_path
         self.model = "gpt-4"
